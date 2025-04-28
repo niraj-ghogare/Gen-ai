@@ -3,7 +3,7 @@ import google.generativeai as genai
 import os
 
 st.set_page_config(page_title="Gemini AI Chatbot with Memory", page_icon="🤖", layout="wide",  initial_sidebar_state="expanded")
-os.environ['GMINI_API_KEY'] = "AIzaSyCec6xyqHh6uNhnFEFZMfvLMYgNvjyg5WY"
+os.environ['GMINI_API_KEY'] = " "
 genai.configure(api_key=os.environ['GMINI_API_KEY'])
 
 # Create Gemini Model
