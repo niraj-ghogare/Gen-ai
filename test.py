@@ -7,7 +7,7 @@ from IPython.display import Markdown
 
 
 # Configure API key
-os.environ['GMINI_API_KEY'] = "AIzaSyCec6xyqHh6uNhnFEFZMfvLMYgNvjyg5WY"
+os.environ['GMINI_API_KEY'] = " "
 genai.configure(api_key=os.environ['GMINI_API_KEY'])
 
 # Helper function to format text as Markdown
